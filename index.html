@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realitní makléř - M&M reality holding a.s.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Realitní makléř - M&M reality holding a.s.</h1>
+    </header>
+    <nav>
+        <a href="#novinky">Novinky</a>
+        <a href="#omakleri">O makléři</a>
+        <a href="#nemovitosti">Nemovitosti</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="container">
+        <div id="novinky" class="section">
+            <h2>Novinky</h2>
+            <p>Zde budou uvedeny články o novinkách v oblasti nemovitostí v České republice.</p>
+        </div>
+        <div id="omakleri" class="section">
+            <h2>O makléři</h2>
+            <p>Stručné informace o mém životě a práci.</p>
+        </div>
+        <div id="nemovitosti" class="section">
+            <h2>Nemovitosti</h2>
+            <p>Zde bude portfolio nabízených nemovitostí. Každá nemovitost bude mít vlastní stránku.</p>
+        </div>
+        <div id="kontakt" class="section">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Jméno:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Zpráva:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Odeslat">
+            </form>
+            <p>Sledujte mě na <a href="https://www.facebook.com/" target="_blank">Facebooku</a>.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Realitní makléř - M&M reality holding a.s.</p>
+    </footer>
+</body>
+</html>
